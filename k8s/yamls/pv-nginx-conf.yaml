@@ -1,0 +1,14 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: pv-nginx-conf
+spec:
+  storageClassName: nfs
+  capacity:
+    storage: 1500Mi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  nfs: 
+    path: /data/nginx/conf.d/
+    server: 192.168.3.101

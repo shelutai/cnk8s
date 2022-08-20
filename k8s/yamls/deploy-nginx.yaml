@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - image: nginx:stable-alpine
+        ports:
+        - containerPort: 80
+        name: nginx
+        volumeMounts:
+        - name: pvc-nginx-conf
+          mountPath: /etc/nginx/conf.d
+        - name: pvc-nginx-log
+          mountPath: /var/log/nginx
+        - name: pvc-www
+          mountPath: /usr/share/nginx/html
+        resources:
+      volumes:
+      - name: pvc-nginx-conf
+        persistentVolumeClaim: 
+          claimName: pvc-nginx-conf
+      - name: pvc-nginx-log
+        persistentVolumeClaim: 
+          claimName: pvc-nginx-log
+      - name: pvc-www
+        persistentVolumeClaim: 
+          claimName: pvc-www

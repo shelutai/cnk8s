@@ -1,0 +1,232 @@
+
+
+## 查看mysql 镜像仓库
+
+```bash
+docker search mysql
+NAME                           DESCRIPTION                                     STARS               OFFICIAL            AUTOMATED
+mysql                          MySQL is a widely used, open-source relation…   12663               [OK]                
+mariadb                        MariaDB Server is a high performing open sou…   4858                [OK]                
+percona                        Percona Server is a fork of the MySQL relati…   578                 [OK]                
+phpmyadmin                     phpMyAdmin - A web interface for MySQL and M…   546                 [OK]                
+```
+## 查看镜像TAG的方法：
+hub.docker.com查看
+
+## 快速运行
+
+$ docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
+
+
+## 作为客户端连接
+
+$ docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -d -p 3306:3306 mysql:5.7
+
+查看本机IP:
+ip a 
+查看docker 网卡的ip，如果暴露了端口，则本机IP也可以。
+
+$docker run -it --rm mysql:5.7 mysql -h172.17.0.1 -uroot -p
+
+另一种方法：
+docker ps 
+docker exec -it mysql bash
+进入容器
+
+
+
+## 利用docker network
+查看命令：
+docker network ls
+
+创建命令：
+$docker network create NAME -d driver
+driver 可以是bridge也可以是overlay。
+docker network create my-net  bridge
+
+```bash
+docker run --name mysql -d -e MYSQL_ROOT_PASSWORD=root --network my-net mysql:5.7
+docker run -it --network my-net --rm mysql:5.7 mysql -hmysql -uroot -p
+```
+
+查看日志：
+
+```bash
+docker logs mysql
+```
+
+## 使用配置文件：
+docker run --name some-mysql -v /my/custom:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+
+## 初始化实例
+传入环境变量MYSQL_DATABASE， 这个目录下的文件将被自动导入执行：
+
+/docker-entrypoint-initdb.d
+（支持文件格式：.sh, .sql and .sql.gz  ）
+多个文件时，会按照字母顺序执行。
+
+
+
+## 使用持久存储
+$ docker run --name some-mysql -v /my/own/datadir:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+
+
+
+## 一些变量
+MYSQL_ROOT_PASSWORD
+root密码
+
+MYSQL_DATABASE
+默认创建数据库，可留空
+
+MYSQL_USER, MYSQL_PASSWORD
+自动创建账号
+MYSQL_ALLOW_EMPTY_PASSWORD
+是否允许使用空密码
+
+MYSQL_RANDOM_ROOT_PASSWORD
+随机生成ROOT密码
+
+MYSQL_ONETIME_PASSWORD
+初始化时使用一次，然后就失效
+MYSQL_INITDB_SKIP_TZINFO
+
+
+##  数据导出 导入
+$ docker exec some-mysql sh -c 'exec mysqldump --all-databases -uroot -p"$MYSQL_ROOT_PASSWORD"' > /some/path/on/your/host/all-databases.sql
+root@60d5af4108a0:/# env | grep -i MYSQL
+MYSQL_MAJOR=5.7
+MYSQL_ROOT_PASSWORD=root
+MYSQL_VERSION=5.7.38-1debian10
+
+$ docker exec -i some-mysql sh -c 'exec mysql -uroot -p"$MYSQL_ROOT_PASSWORD"' < /some/path/on/your/host/all-databases.sql
+
+
+## 创建adminer
+docker run --network my-net -p 8080:8080 adminer
+
+
+## 创建Dockerfile
+from mysql:5.7
+COPY . /docker-entrypoint-initdb.d
+
+
+
+## k8s 中的yaml文件
+
+leon@leon:/nas/k8s_doc/yamls$ cat deploy_mysql.yaml 
+
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql2
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: mysql2
+    spec:
+      containers:
+        - image: mysql:5.7
+          name: mysql2
+          ports:
+            - containerPort: 3306
+          resources:
+          env:
+          - name: MYSQL_ROOT_PASSWORD
+            value: root
+          volumeMounts: 
+            - name: pvc-mysql
+              mountPath: /var/lib/mysql
+      volumes: 
+      - name: pvc-mysql
+        persistentVolumeClaim: 
+          claimName: pvc-mysql
+      restartPolicy: Always
+```
+
+leon@leon:/nas/k8s_doc/yamls$ cat svc_mysql.yaml 
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: mysql
+  name: mysql
+spec:
+  ports:
+    - name: "3306"
+      port: 3306
+      targetPort: 3306
+      nodePort: 31061
+  type: NodePort
+  selector:
+    app: mysql
+```
+
+pvc-mysql.yaml
+
+```yaml
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: pvc-mysql
+spec:
+  storageClassName: nfs
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1500Mikind: PersistentVolume
+```
+
+pv-mysql.yaml
+
+```yaml
+apiVersion: v1
+metadata:
+  name: pv-mysql
+spec:
+  storageClassName: nfs
+  capacity:
+    storage: 1500Mi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  nfs: 
+    path: /nas/k8s_doc/nas/mysql
+    server: 192.168.132.39
+```
+
+## k8s中部署：
+
+```bash
+kubectl apply -f pv-mysql
+kubectl apply -f pvc-mysql
+kubectl apply -f deploy-mysql
+kubectl apply -f svc-mysql
+```
+
+## 查看
+kubectl get po
+kubectl get svc
+
+kubectl exec -it [podname] -- bash
+
+
+## 验证持久化存储
+
+create database test character set utf8mb4
+
+create table user( id int(11) not null RIMARY KEY AUTO_INCREMENT, name varchar(255) );
+
+结束POD，会自动创建，打开数据库，发现还存在。
+
+

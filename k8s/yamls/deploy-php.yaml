@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: php
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: php
+  template:
+    metadata:
+      labels:
+        app: php
+    spec:
+      containers:
+      - image: myphp:1.0
+        ports:
+        - containerPort: 9000
+        name: php
+        volumeMounts:
+        - name: pvc-www
+          mountPath: /usr/share/nginx/html
+        resources:
+      volumes:
+      - name: pvc-www
+        persistentVolumeClaim: 
+          claimName: pvc-www

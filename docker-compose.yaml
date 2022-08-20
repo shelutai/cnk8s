@@ -1,0 +1,44 @@
+version: "3"
+services:
+  nginx:
+    image: nginx:latest
+    container_name: "compose-nginx"
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - TZ=Asia/Shanghai
+    depends_on:
+      - "php"
+    volumes:
+      - "/data/nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf"
+      - "/data/nginx/log:/var/log/nginx"
+      - "/data/www:/usr/share/nginx/html"
+    networks:
+      - net-app
+  php:
+    image: myphp:1.0
+    container_name: "compose-php"
+    restart: always
+    environment:
+      - TZ=Asia/Shanghai
+    volumes:
+      - "/data/www:/usr/share/nginx/html"
+    networks:
+      - net-app
+  mysql:
+    image: mysql:5.7
+    container_name: "compose-mysql"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: admin
+      MYSQL_PASSWORD: admin
+    volumes:
+      - ./mysql/data:/var/lib/mysql
+      - ./mysql/conf.d:/etc/mysql/conf.d
+    networks:
+      - net-app
+networks:
+    net-app:
+

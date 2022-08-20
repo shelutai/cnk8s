@@ -1,0 +1,14 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: pv-nginx-log
+spec:
+  storageClassName: nfs
+  capacity:
+    storage: 1500Mi
+  accessModes:
+    - ReadWriteOnce
+  persistentVolumeReclaimPolicy: Retain
+  nfs: 
+    path: /data/nginx/log/
+    server: 192.168.3.101
