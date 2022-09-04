@@ -4,6 +4,7 @@ metadata:
   name: pvc-mysql
 spec:
   storageClassName: nfs
+  volumeName: pv-mysql
   accessModes:
     - ReadWriteOnce
   resources:

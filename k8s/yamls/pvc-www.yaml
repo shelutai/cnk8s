@@ -4,6 +4,7 @@ metadata:
   name: pvc-www
 spec:
   storageClassName: nfs
+  volumeName: pv-www
   accessModes:
     - ReadWriteOnce
   resources:

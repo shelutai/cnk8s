@@ -11,4 +11,4 @@ spec:
   persistentVolumeReclaimPolicy: Retain
   nfs: 
     path: /data/nginx/conf.d/
-    server: 192.168.3.101
+    server: 192.168.3.100

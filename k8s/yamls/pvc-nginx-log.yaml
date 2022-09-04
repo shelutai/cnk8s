@@ -4,6 +4,7 @@ metadata:
   name: pvc-nginx-log
 spec:
   storageClassName: nfs
+  volumeName: pv-nginx-log
   accessModes:
     - ReadWriteOnce
   resources:
