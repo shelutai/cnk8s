@@ -11,6 +11,5 @@ ubuntu22.04, kubernetes 1.25
 ## 技术咨询：
 
 需要提供技术咨询
-
-![技术咨询服务](https://github.com/shelutai/cnk8s/blob/master/qr.jpg#pic_center =200)
+![cnk8s.com](https://raw.githubusercontent.com/shelutai/cnk8s/master/qr.jpg)
 
